@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0);
+}
+
+nav .logo {
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li a {
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 6px;
+}
+
+section.image-banner {
+    width: 100%;
+    height: 100vh;
+    background: url("Imagens/teste2.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.intro {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Altura da seção igual a altura da tela */
+    text-align: left; /* Texto alinhado à esquerda */
+}
+
+.sobre-comunidade {
+    max-width: 1200px; /* Largura máxima para o container */
+    font-family: Arial, sans-serif;
+    color: #4CAF50; /* Cor verde para o título */
+    line-height: 1.6;
+    margin: 20px;
+}
+
+.texto-e-imagem {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Espaçamento entre o texto e a imagem */
+}
+
+.texto {
+    flex: 1;
+}
+
+.imagem img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px; /* Bordas arredondadas para a imagem */
+}
+
+.sobre-comunidade h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sobre-comunidade p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.sobre-comunidade ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sobre-comunidade ul li {
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+.sobre-comunidade .produtos-button {
+    display: inline-block;
+    background-color: #4CAF50; /* Cor verde para o botão */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.sobre-comunidade .produtos-button:hover {
+    background-color: #45a049; /* Verde mais escuro ao passar o mouse */
+}
+.footer-nav { 
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px 0; 
+}
+.footer-content { 
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+.footer-section { 
+    flex: 1; 
+    padding: 10px; 
+} .footer-section h5 { 
+    font-size: 16px; 
+    margin-bottom: 15px; 
+    text-transform: uppercase; 
+}
+.footer-section ul { 
+    list-style: none; 
+    padding: 0; 
+} 
+    .footer-section ul li { 
+        margin-bottom: 10px; 
+    } 
+    .footer-section ul li a { 
+        color: #fff; 
+        text-decoration: none; 
+    }
+    .footer-section ul li a:hover { 
+        text-decoration: underline; 
+    } 
+    .footer-section p { 
+        margin: 5px 0; 
+    } 
+    .newsletter input[type="text"], 
+    .newsletter input[type="email"] { 
+        width: 70%; 
+        padding: 5px; 
+        margin-right: 5px; 
+    } 
+    .newsletter button { 
+        padding: 5px 10px; 
+        background-color: #4CAF50; 
+        color: #fff; 
+        border: none; 
+        cursor: pointer; 
+    }
+        newsletter button:hover { 
+            background-color: #45a049; 
+        } 
+        .footer-bottom { 
+            text-align: center; 
+            margin-top: 20px; 
+            padding-top: 10px; 
+            border-top: 1px solid #444; 
+        } 
+        .social-icons img { 
+            width: 24px;
+        }
